@@ -1,6 +1,6 @@
 <head>
    <style>
-   p {
+       p {
   font-family: sans-serif;
   font-size: 15vw;
   color: maroon;
@@ -10,11 +10,32 @@
   padding: 0px;
   margin: 10px;
 }
+header{
+  flex: 0 40px;
+  background: hsl(357, 100%, 73%);
+}
+footer{
+  margin-top: 80px;
+  flex: 0 40px;
+  background: hsl(357, 100%, 73%);
+}
 button{
   text-align: center;
 }
 body {
   background-color: pink;
+}
+.hearts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid-gap: 1em;
+}
+.heart{
+  heigt: 10px;
+}
+img{
+  height: 20vw;
 }
 .item {
   border: 2px solid rgb(95 97 110);
@@ -35,9 +56,18 @@ body {
    </style>
 </head>
 
+<header>
+  <div class="hearts">
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+  </div>
+</header>
 <body> 
   <main>
-    <p line-height=40vw >Will You</p>
+    <p>Will You</p>
     <p>Marry Me?</p>
     <div class="container">
     <button class="item">Yes!</button>   
@@ -45,3 +75,12 @@ body {
     </div>
   </main>
 </body>
+<footer>
+  <div class="hearts">
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+    <img src="https://img.clipart-library.com/2/clip-images-of-heart/clip-images-of-heart-6.png" />
+  </div>
+</footer>
