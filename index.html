@@ -69,6 +69,13 @@ img{
    height: 25%;
   width: 50%;
 }
+      #confetti-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+      
    </style>
 </head>
 
@@ -89,8 +96,8 @@ img{
     <p>Will You</p>
     <p>Marry Me?</p>
     <div class="container">
-    <button class="item">Yes!</button>   
-    <button class="item">Absolutely!</button>
+    <button class="item" id="confetti-container">Yes!</button>   
+    <button class="item" id="confetti-container">Absolutely!</button>
     </div>
   </main>
 </body>
